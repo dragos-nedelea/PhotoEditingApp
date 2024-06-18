@@ -1,0 +1,175 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/content">
+
+    <LinearLayout
+        android:id="@+id/frames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="9dp">
+
+
+        <ImageButton
+            android:id="@+id/single_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/single_category"/>
+
+        <TextView
+            android:id="@+id/single_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Single Frames"
+            android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="9dp">
+
+            <ImageButton
+                android:id="@+id/double_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/double_category"/>
+
+            <TextView
+                android:id="@+id/double_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Double Frames"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="9dp">
+
+
+            <ImageButton
+                android:id="@+id/triple_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/triple_category"/>
+
+
+            <TextView
+                android:id="@+id/triple_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Triple Frames"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/editors"
+        android:layout_below="@+id/frames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="9dp">
+
+
+            <ImageButton
+                android:id="@+id/collage_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/collage_editor"/>
+
+
+            <TextView
+                android:id="@+id/collae_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Collage"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="9dp">
+
+            <ImageButton
+                android:id="@+id/pe_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/photo_editor"/>
+
+            <TextView
+                android:id="@+id/pe_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photo Edit"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="end"
+            android:layout_marginHorizontal="9dp">
+
+
+            <ImageButton
+                android:id="@+id/at_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/text_editor"/>
+
+            <TextView
+                android:id="@+id/at_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Text"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
